@@ -25,12 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grav = 0.2; 
+            <string>grav = 0.5; 
 hsp = 0; 
 vsp = 0; 
-jumpSpeed = 4; 
-moveSpeed = 2;
+jumpSpeed = 15; 
+moveSpeed = 10;
 
+face = instance_create(x,y,SlimeFace);
+arm = instance_create(x,y,SlimeArm);
+arm.image_speed = 0;
 </string>
           </argument>
         </arguments>
@@ -54,40 +57,68 @@ moveSpeed = 2;
           <argument>
             <kind>1</kind>
             <string>
-    // Get input 
-    kLeft = -keyboard_check(vk_left); 
-    kRight = keyboard_check(vk_right); 
-    kJump = keyboard_check_pressed(vk_up);
+// Get input 
+kLeft = -keyboard_check(ord('A')); 
+kRight = keyboard_check(ord('D')); 
+kJump = keyboard_check_pressed(ord('W'));
+kGrab = mouse_check_button_pressed(mb_left);
 
-    // Use input 
-    move = kLeft + kRight; 
-    hsp = move * moveSpeed; 
-    if (vsp &lt; 10) {
-        vsp += grav; 
-    };
 
-    if (place_meeting(x, y + 1, wall_parent)) {
-        vsp = kJump * -jumpSpeed 
-    }
+// Use input 
+move = kLeft + kRight; 
+hsp = move * moveSpeed; 
+if (vsp &lt; 10) {
+    vsp += grav; 
+};
 
-    // H Collisions 
-    if (place_meeting(x + hsp, y, wall_parent)) {
-        while (!place_meeting(x + sign(hsp), y, wall_parent)) {
-            x += sign(hsp); 
-        } hsp = 0; 
+if (place_meeting(x, y + 1, wall_parent)) {
+    vsp = kJump * -jumpSpeed 
+}
+
+// H Collisions 
+if (place_meeting(x + hsp, y, wall_parent)) {
+    while (!place_meeting(x + sign(hsp), y, wall_parent)) {
+        x += sign(hsp); 
+    } hsp = 0; 
+}       
+x += hsp;
+
+// v Collisions 
+if (place_meeting(x, y + vsp, wall_parent)) {
+    while (!place_meeting(x, y + sign(vsp), wall_parent)) {
+        y += sign(vsp); 
     } 
-      
-    x += hsp;
+    vsp = 0; 
+}     
+y += vsp;
 
-    // v Collisions 
-    if (place_meeting(x, y + vsp, wall_parent)) {
-        while (!place_meeting(x, y + sign(vsp), wall_parent)) {
-            y += sign(vsp); 
-        } 
-        vsp = 0; 
-    }
-     
-    y += vsp;
+//arm stuff
+arm.x = x;
+arm.y = y;
+pointDirection = point_direction(x, y, mouse_x, mouse_y);
+if(kGrab &amp;&amp; arm.image_speed == 0){
+    arm.image_speed = 1;
+    arm.image_angle = pointDirection;
+}
+
+//face stuff
+face.x = x;
+face.y = y;
+if (hsp &gt; 0){
+    face.image_xscale = 1;
+}
+
+if (hsp &lt; 0){
+    face.image_xscale = -1;
+}
+
+if (vsp &gt; 0){
+    face.image_yscale = -1;
+}
+
+if (vsp &lt;= 0 ){
+    face.image_yscale = 1;
+}
 </string>
           </argument>
         </arguments>

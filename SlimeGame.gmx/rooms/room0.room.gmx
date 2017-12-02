@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>50</vsnap>
+  <hsnap>50</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,52 +51,74 @@
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="SlimeBody" x="416" y="640" name="inst_ACF729AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="0" y="736" name="inst_E8C6324B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="64" y="736" name="inst_426BFEC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="32" y="736" name="inst_1DAD5752" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="96" y="736" name="inst_F3BFB41A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="160" y="736" name="inst_570CFB29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="224" y="736" name="inst_55BB6C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="288" y="736" name="inst_6C65AD0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="352" y="736" name="inst_1107883A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="416" y="736" name="inst_9F810223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="480" y="736" name="inst_C0626B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="544" y="736" name="inst_49D00CAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="608" y="736" name="inst_25989BD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="672" y="736" name="inst_A507C5BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="736" y="736" name="inst_A37AF92A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="800" y="736" name="inst_BFADC992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="864" y="736" name="inst_6416EF0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="928" y="736" name="inst_DD5FE14A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="960" y="736" name="inst_F1EDC010" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="928" y="736" name="inst_8C96A216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="896" y="736" name="inst_E00B86C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="864" y="736" name="inst_573B56E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="832" y="736" name="inst_D69919F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="800" y="736" name="inst_1ABDD4D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="768" y="736" name="inst_9F26E527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="736" y="736" name="inst_7D5B5A16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="704" y="736" name="inst_B8A857C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="672" y="736" name="inst_E391B4E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="640" y="736" name="inst_30019AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="608" y="736" name="inst_EF335F39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="576" y="736" name="inst_193B2E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="544" y="736" name="inst_39A8B6C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="512" y="736" name="inst_2DE99FEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="480" y="736" name="inst_4AA23CD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="448" y="736" name="inst_2FE9ADA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="416" y="736" name="inst_667874BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="384" y="736" name="inst_4668AFDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="352" y="736" name="inst_8872B3AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="320" y="736" name="inst_196A1B89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="288" y="736" name="inst_0F71E371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="256" y="736" name="inst_90C6D6FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="224" y="736" name="inst_5294D45B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="192" y="736" name="inst_55748668" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="160" y="736" name="inst_AFDB4BD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="128" y="736" name="inst_7607935A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ground_Flat" x="992" y="736" name="inst_7CFB0DD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SlimeBody" x="250" y="450" name="inst_ACF729AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="0" y="750" name="inst_ECA51671" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="50" y="750" name="inst_909E31A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="100" y="750" name="inst_E1022A2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="150" y="750" name="inst_F7016724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="200" y="750" name="inst_E9E32DB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="250" y="750" name="inst_A77CBA9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="300" y="750" name="inst_ED6A7E54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="350" y="750" name="inst_E38A2180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="400" y="750" name="inst_34222ED9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="450" y="750" name="inst_7E08A0A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="500" y="750" name="inst_BF315448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="550" y="750" name="inst_94EB11CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="600" y="750" name="inst_3DA58999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="650" y="750" name="inst_F53A5A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="700" y="750" name="inst_496B2C2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="750" y="750" name="inst_FE38A9BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="800" y="750" name="inst_8F72E2F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="850" y="750" name="inst_39543554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="900" y="750" name="inst_0CFF4E7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="950" y="750" name="inst_5CF6860A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="1000" y="750" name="inst_CE1A0968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="0" y="500" name="inst_BE31933D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="50" y="500" name="inst_4538F73F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="100" y="500" name="inst_76CA7808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="150" y="500" name="inst_08C46FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="200" y="500" name="inst_DDAA4B54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="250" y="500" name="inst_53595DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="300" y="500" name="inst_79D67B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="650" y="500" name="inst_4F9B3325" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="700" y="500" name="inst_3A63F933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="750" y="500" name="inst_BFC131ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="800" y="500" name="inst_14ED7A18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="850" y="500" name="inst_2CD0DF43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="900" y="500" name="inst_07A41A2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="950" y="500" name="inst_2D10DFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GroundFlat" x="1000" y="500" name="inst_82EB7B75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="500" name="inst_AB5135CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="550" name="inst_79C7CB38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="600" name="inst_77A05310" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="650" name="inst_6A637528" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="700" name="inst_880E485F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="450" name="inst_A049634B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="400" name="inst_8DF7E912" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="350" name="inst_88491E01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="300" name="inst_622594AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="250" name="inst_ADFEAFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="200" name="inst_1C94AADB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="150" name="inst_DBF714D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="100" name="inst_D810833C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="50" name="inst_DDEB4019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallLeft" x="0" y="0" name="inst_11A9760C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="700" name="inst_AF84C0E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="650" name="inst_5301A90D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="600" name="inst_0F7B4181" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="550" name="inst_FC128B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="500" name="inst_FFE6DC02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="450" name="inst_40D59A28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="400" name="inst_79C474F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="350" name="inst_C8143DFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="300" name="inst_0C08F66F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="250" name="inst_BB654A02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="200" name="inst_6DB77FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="150" name="inst_5FDB7139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="100" name="inst_4BF66299" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="50" name="inst_A05DDF52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="WallRight" x="1000" y="0" name="inst_BF68C1D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy1" x="491" y="723" name="inst_44C6222B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
